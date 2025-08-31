@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'property_db',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'postgres',
+        'HOST': '127.0.0.1',  # use localhost instead of 'postgres'
         'PORT': '5432',
     }
 }
@@ -95,6 +95,7 @@ CACHES = {
         }
     }
 }
+
 
 
 
